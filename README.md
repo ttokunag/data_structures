@@ -4,6 +4,9 @@
 This repository contains files about Data Structures. I stores algorithms specific to a certain Data Structures to the Algorithm repository, so please visit it if you're interested in it.
 
 The followings are descriptions of each directories:
+### Binary Heap Tree
+This folder contains Java files about binary heap tree structure and heap sort.
+
 ###  Stacks
 is about the Stack data structure, Last In First Out(LIFO) structrue.
 
