@@ -6,10 +6,9 @@ A linked-list is a data structure which each element of it has **pointers** to o
 
 ## Types of linked-lists
 #### Singly linked-list:
-is a linked-list whose contents have only one poitner. Let `A` and `B` be elements in a linked-list, and `A` has a pointer to `B`(looks like A -> B, and usually B does NOT point to A). Then we can traverse A first then B. It never occurs that we see A after visiting B. Thus, a singly linked-list is useful if one knows that a program traverse it unidirectionally.
-<br><br>
+is a linked-list whose contents have only one poitner. Let `A` and `B` be elements in a linked-list, and `A` has a pointer to `B`(looks like **A -> B**, and usually B does NOT point to A). Then we can traverse A first then B. It never occurs that we see A after visiting B. Thus, a singly linked-list is useful if one knows that a program traverse it unidirectionally.
 #### Doubly linked-list:
-is a linked-list whose contents have two pointers which we usually call the predecessor or successor pointer. This is very useful when we expect that we will traverse the linked-list back and forth. Doubly linked-list is often used for other data structure implementations. Doubly linked-list structure looks like A <=> B <=> C
+is a linked-list whose contents have two pointers which we usually call the predecessor or successor pointer. This is very useful when we expect that we will traverse the linked-list back and forth. Doubly linked-list is often used for other data structure implementations. Doubly linked-list structure looks like **A <=> B <=> C**
 #### Dummy Nodes
 A node in a linked-list which has no data in it is called a dummy node. The advantage of using dummy nodes is making algorithms implementations simpler because the head and the tail node have never been null.
 
